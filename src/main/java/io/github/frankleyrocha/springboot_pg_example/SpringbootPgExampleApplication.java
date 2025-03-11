@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.mail.MailSender;
 
 import io.github.frankleyrocha.springboot_pg_example.dto.PersonDTO;
 import io.github.frankleyrocha.springboot_pg_example.service.MailService;
