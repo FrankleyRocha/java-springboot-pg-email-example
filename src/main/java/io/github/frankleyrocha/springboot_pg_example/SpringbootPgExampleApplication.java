@@ -65,6 +65,7 @@ public class SpringbootPgExampleApplication implements CommandLineRunner {
 
 			for (PersonDTO person : persons) {
 
+				//xpoto
 				mailService.sendMail(
 						person.getEmail(),
 						"Olá %s".formatted(person.getName()),
